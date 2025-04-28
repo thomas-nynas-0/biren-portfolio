@@ -6,6 +6,12 @@ import { Button } from "@/components/ui/button"
 import { AdvancedTechSymbol } from "@/components/advanced-tech-symbol"
 
 export function Hero() {
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = '/BirenResume.pdf'; // Replace with the actual path to your PDF file
+    link.download = 'BirenResume.pdf'; // Specify the filename for download
+    link.click(); // Trigger the download
+  };
   return (
     <section id="home" className="relative min-h-screen py-20 md:py-32">
       {/* Background Image */}
@@ -66,6 +72,7 @@ export function Hero() {
                 variant="outline"
                 size="lg"
                 className="bg-background/50 backdrop-blur-sm hover:bg-background/70 dark:bg-background/30 dark:hover:bg-background/50"
+                onClick={handleDownload}
               >
                 <Download className="mr-2 h-4 w-4" />
                 Download Resume
