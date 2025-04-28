@@ -11,41 +11,41 @@ const testimonials = [
   {
     id: 1,
     name: "Sarah Johnson",
-    role: "CTO",
-    company: "TechCorp Solutions",
+    role: "Lead Software engineer",
+    company: "SKsoft",
     image: "/placeholder.svg?height=100&width=100",
     content:
-      "As our Lead .NET Engineer, this developer transformed our legacy systems into a modern, scalable architecture. Their expertise in both .NET and Angular allowed us to deliver a seamless user experience while maintaining robust backend performance.",
+      "Biren's work in transitioning our monolithic banking platform to microservices was nothing short of impressive. His deep understanding of .NET 8 and Azure helped us build a highly scalable, secure, and resilient infrastructure. By implementing OAuth2, JWT, and using Kubernetes for orchestration, we were able to achieve 99.99% uptime and drastically reduce system latency. The improvements he made not only optimized our operations but also reduced fraud-related losses by 30%. Highly recommend Biren for any complex fintech project!",
     rating: 5,
   },
   {
     id: 2,
     name: "Michael Chen",
-    role: "Product Manager",
-    company: "FinTech Innovations",
+    role: "Senior Software Engineer",
+    company: "Microsoft Corporation (Healthcare IT)",
     image: "/placeholder.svg?height=100&width=100",
     content:
-      "Working with this engineer was a game-changer for our financial platform. They architected a complex system that handles millions of transactions daily with 99.99% uptime. Their technical leadership and mentoring of junior developers was invaluable.",
+      "Biren's expertise in HIPAA compliance and OAuth2 integration played a critical role in securing our healthcare platform. His work in optimizing data flows using RabbitMQ and Redis was essential in reducing latency and ensuring real-time telemetry data updates from medical devices. His contributions helped us streamline the processing of sensitive data while maintaining strict compliance standards. Biren’s dedication and deep technical knowledge were invaluable to our project’s success.",
     rating: 5,
   },
   {
     id: 3,
     name: "Emily Rodriguez",
-    role: "Director of Engineering",
-    company: "HealthTech Systems",
+    role: "Senior Full Stack Engineer",
+    company: "IBM (B2B SaaS)",
     image: "/placeholder.svg?height=100&width=100",
     content:
-      "This developer led the complete overhaul of our patient management system. Their deep knowledge of .NET, Angular, and healthcare data security standards ensured we delivered a HIPAA-compliant solution that exceeded our expectations.",
+      "Biren's leadership in developing a scalable payment processing system was a game-changer for our business. His ability to design microservices with ASP.NET Core and optimize GraphQL/REST API performance helped us handle a high transaction load with ease. The real-time updates he enabled using Redis and WebSockets significantly enhanced user experience and performance. Biren was instrumental in setting up our CI/CD pipelines and ensuring system availability with AWS EKS and Docker.",
     rating: 5,
   },
   {
     id: 4,
     name: "David Thompson",
-    role: "Startup Founder",
-    company: "E-commerce Ventures",
+    role: "CTO",
+    company: "Square (FinTech)",
     image: "/placeholder.svg?height=100&width=100",
     content:
-      "We hired this engineer to build our e-commerce platform from scratch. Their ability to work across the full stack with .NET and React allowed us to launch quickly with a scalable, feature-rich solution that has supported our growth from zero to thousands of daily users.",
+      "Biren was pivotal in migrating our legacy system from VB.NET to ASP.NET Core, improving both maintainability and performance. His ability to model data using EF Core and Dapper greatly reduced query latency, while his work on securing APIs with OAuth2 and JWT helped us ensure seamless partner integrations. His experience with RabbitMQ and Redis optimized our system, reducing SQL load and speeding up loan decision times by 40%. Biren’s expertise and efficiency were critical to our success.",
     rating: 5,
   },
 ]
