@@ -86,7 +86,7 @@ export function ContactForm() {
               <h3 className="text-lg font-semibold mb-2">Email</h3>
               <p className="text-muted-foreground">
                 <a href="mailto:contact@dotnetdev.tech" className="hover:text-primary transition-colors">
-                  birenpatel467@outlook.com
+                  birenpatel467@gmail.com
                 </a>
               </p>
               <p className="text-sm text-muted-foreground mt-2">I'll respond to your message within 24 hours</p>
